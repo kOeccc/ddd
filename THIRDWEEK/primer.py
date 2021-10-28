@@ -9,3 +9,4 @@ print('{0:.25f}'.format(x))  #  делаем 25 знаков после запя
 
 #  ceil - округляет в большую сторону 
 #  Test work
+its really works
