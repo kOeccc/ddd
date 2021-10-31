@@ -1,6 +1,8 @@
 k = input()
-po = k.find('f')  # где_ищем.find(что ищем)
-ks = k[::-1]
-n2 = len(k) - ks - 1
-ll = ks.find('f')
-print(po, ks, n2)
+po = k.find('f')
+po1 = k[::-1].find('f')  # пїЅпїЅпїЅ_пїЅпїЅпїЅпїЅ.find(пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ)
+if k.find('f') != -1:
+    if len(k) == po + po1 + 1:
+        print(po)
+    else:
+        print(po, len(k) - po1 - 1)
