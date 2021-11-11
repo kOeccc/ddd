@@ -8,7 +8,6 @@ def sred3(a, b, c):
     return sred(sred(a, b), c)
 
 
-
 a = int(input())
 b = int(input())
 c = int(input())
