@@ -1,7 +1,7 @@
 import math
 
 
-def modul4(x):
+def modul4(x):  # function for make modul number
     return (x * x)**0.5
 
 
